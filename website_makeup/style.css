@@ -333,14 +333,15 @@ button:hover .button-text {
     margin-bottom: 0;
 }
 
-.about h1{
+.about-text h1{
     font-family: 'Comic Neue', sans-serif;
     font-size: 48px;
     color: #C38154;
     text-align: end;
+    margin-top: 100px;
 }
 
-.about p{
+.about-text p{
     margin-top: 5px;
     text-align: end;
     font-size: 14px;
