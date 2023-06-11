@@ -274,8 +274,8 @@ button:hover .button-text {
 
 .card-row{
     display: flex;
+    flex-wrap: wrap;
     position: absolute;
-    flex-direction: row;
     top: 200px;
     left: 230px;
 }
@@ -356,10 +356,78 @@ button:hover .button-text {
     right: 220px;
 }
 
-.footer{
-    position: relative;
+footer{
     width: 100%;
-    height: 15vh;
+    height: auto;
     background-color: #F5EDCE;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 40px;
+    color: #000;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #C38154;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+}
+
+.socials a:hover i{
+    color: #C38154;
+    transition: color .4s ease
+}
+
+.socials a:hover i{
+    color: #C38154;
+}
+
+.footer-bottom{
+    background-color: #C38154;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: #F5EDCE;
 }
 
